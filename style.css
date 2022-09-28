@@ -26,13 +26,23 @@ background-color: var(--dark);
 
 /* #endregion header */
 
+/* #region call to cation */
 .call_to_action{
-    height: 400px;
+    /* height: 400px; */
     background-color: brown;
 }
-.game_selector{
-    height: 150px;
-    background-color: blueviolet;
+.jumbo{
+    background-image: url(./img/jumbo-bg.png);
+background-size: cover;
+}
+
+.returnal{
+    width: 200px;
+}
+/* #endregion call to action */
+
+.image_game>img{
+    width: 100%;
 }
 
 .console{
