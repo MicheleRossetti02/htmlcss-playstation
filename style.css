@@ -26,29 +26,62 @@ background-color: var(--dark);
 
 /* #endregion header */
 
-/* #region call to cation */
-.call_to_action{
-    /* height: 400px; */
+/* #region jumbo */
+
+/*  
+ .call_to_action{
+    height: 400px; 
     background-color: brown;
-}
+} */
 .jumbo{
     background-image: url(./img/jumbo-bg.png);
 background-size: cover;
 }
 
+.jumbo_info{
+/* position: absolute; */
+}
 .returnal{
     width: 200px;
 }
-/* #endregion call to action */
+/* #endregion jumbo */
 
+/* #region game selector */
 .image_game>img{
     width: 100%;
 }
+/* #endregion game selector */
 
-.console{
+/* #region playstation 5 */
+/* 
+.playstation_5{
     height: 500px;
     background-color: aqua;
+} */
+
+.ps_console>img{
+    width: 100%;
 }
+.accessori>img{
+    width: 70%;
+    margin-bottom: 5px;
+}
+.accessori{
+    margin: 0 15px;
+}
+/* #endregion playstation 5 */
+
+
+/* #region call to cation */
+.call_to_action{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+background-size: cover;
+}
+
+
+/* #endregion call to cation */
+
+
 
 .new_games{
     height: 300px;
