@@ -81,10 +81,20 @@ background-size: cover;
 
 /* #endregion call to cation */
 
-
+/* #region new games */
+.new_games_picture>img{
+width: 100%;
+}
 
 .new_games{
-    height: 300px;
+
+    background-color: var(--dark) ;
+}
+/* #endregion new games */
+
+
+.contents{
+    display: contents;
 }
 
 .extra{
