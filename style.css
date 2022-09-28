@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #FFFFFF;
+    --darker: #000000;
+    --dark: #1F1F1F;
+    --light: #BEBCBB;
+    --secondary: #161C3B;
+    --footer: #00439C;
+}
+
+
+
+
+.sony{
+height: 50px;
+background-color: var(--dark);
+}
+.nav{
+    height: 100px;
+    background-color: aquamarine;
+}
+.call_to_action{
+    height: 400px;
+    background-color: brown;
+}
+.game_selector{
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.console{
+    height: 500px;
+    background-color: aqua;
+}
+
+.new_games{
+    height: 300px;
+}
+
+.extra{
+    height: 400px;
+    background-color: crimson;
+}
+.sales{
+    height: 400px;
+    background-color: chocolate;
+}
+.media{
+    height: 300px;
+    background-color: darksalmon;
+}
+footer{
+    height: 450px;
+    background-color: var(--footer);
+}
