@@ -15,15 +15,17 @@
 
 
 
-
+/* #region header */
 .sony{
-height: 50px;
 background-color: var(--dark);
 }
-.nav{
-    height: 100px;
-    background-color: aquamarine;
+.sony>img{
+    width: 50px;
 }
+
+
+/* #endregion header */
+
 .call_to_action{
     height: 400px;
     background-color: brown;
