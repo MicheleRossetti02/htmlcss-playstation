@@ -11,10 +11,18 @@
     --light: #BEBCBB;
     --secondary: #161C3B;
     --footer: #00439C;
+    --text: #919191;
+
 }
 
 main{
     font-family: Arial, Helvetica, sans-serif;
+}
+/* .title_section{
+    font-size: 24px;
+} */
+.color_description{
+color: var(--text);
 }
 
 /* #region header */
@@ -43,7 +51,7 @@ background-color: var(--dark);
 
 
 .returnal{
-    width: 70%;
+    width: 100%;
 }
 /* #endregion jumbo */
 
@@ -69,6 +77,9 @@ background-color: var(--dark);
 }
 .accessori{
     padding: 0 10px;
+}
+.disabled{
+    opacity: 50%;
 }
 /* #endregion playstation 5 */
 
@@ -117,10 +128,12 @@ width: 100%;
     width: 100%;
 
 }
+
 /* #endregion extraplus */
 
 
 /* #region extranow */
+
 .extra_plus{
     background-color: var(--light);
 }
@@ -137,6 +150,7 @@ width: 100%;
     width: 100%;
 }
 /* #endregion extranow */
+
 /* #region social */
 div>.social{
     width: 100%;
@@ -156,3 +170,34 @@ footer{
     width: 120px;
 }
 /* #endregion footer */
+
+
+
+/* #region hover */
+.red:hover{
+    box-shadow: 5px 5px darkred;
+}
+.blue:hover{
+    box-shadow: 5px 5px darkblue;
+}
+.grey:hover{
+    box-shadow: 5px 5px #D9DADC;
+}
+.white:hover{
+    box-shadow: 5px 5px white;   
+}
+
+.image_game{
+    transition: transform 1s;
+
+}
+.image_game:hover{
+    transform: translateY(-20px);
+
+}
+
+.accessori:hover{
+    opacity: 100%;
+    border-bottom: 2px solid #1F83D4;
+}
+/* #endregion hover */
