@@ -43,7 +43,7 @@ background-color: var(--dark);
 
 
 .returnal{
-    width: 100%;
+    width: 70%;
 }
 /* #endregion jumbo */
 
@@ -68,7 +68,7 @@ background-color: var(--dark);
     margin-bottom: 5px;
 }
 .accessori{
-    margin: 0 15px;
+    padding: 0 10px;
 }
 /* #endregion playstation 5 */
 
