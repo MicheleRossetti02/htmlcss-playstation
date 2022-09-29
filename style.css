@@ -13,7 +13,9 @@
     --footer: #00439C;
 }
 
-
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* #region header */
 .sony{
@@ -97,10 +99,22 @@ width: 100%;
     display: contents;
 }
 
-.extra{
-    height: 400px;
-    background-color: crimson;
+/* #region extra */
+
+.ps_plus_logo{
+    width: 340px;
 }
+
+.ps_plus_april{
+width: 100%;
+}
+
+.extra{
+    background-color: var(--light);
+}
+
+
+
 .sales{
     height: 400px;
     background-color: chocolate;
