@@ -37,7 +37,8 @@ background-color: var(--dark);
 } */
 .jumbo{
     background-image: url(./img/jumbo-bg.png);
-background-size: cover;
+    background-size: cover;
+    background-position: top;
 }
 
 
@@ -75,7 +76,8 @@ background-size: cover;
 /* #region call to cation */
 .call_to_action{
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
-background-size: cover;
+    background-size: cover;
+    background-position: top;
 }
 
 
