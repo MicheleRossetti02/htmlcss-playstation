@@ -94,10 +94,14 @@ width: 100%;
 }
 /* #endregion new games */
 
+/* #region explore */
 
-.contents{
-    display: contents;
+div >.ps_4{
+    width: 100%;
 }
+/* #endregion explore */
+
+
 
 /* #region extraplus */
 
