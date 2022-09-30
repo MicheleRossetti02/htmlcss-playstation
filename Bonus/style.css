@@ -34,9 +34,7 @@ background-color: var(--dark);
     width: 50px;
 }
 
-.dropdown-item{
-    width: 100%;
-}
+
 .dropdown-toggle::after{
     border: none ;
     
@@ -49,6 +47,10 @@ background-color: var(--dark);
   width: 100%;
     top: 63px;
     border-radius: 0;
+    /* height: 300px; */
+}
+.row_nav{
+    height: 100%;
 }
 
 
